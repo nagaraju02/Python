@@ -9,3 +9,8 @@ pipeline:
     
 
 
+pipeline:
+  second_pipeline:
+    image: lokeshjangir/composer:php73
+    commands:
+      - echo 'second pipeline'
