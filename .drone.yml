@@ -1,0 +1,9 @@
+pipeline:
+branches: master
+  build:
+    image: lokeshjangir/composer:php73
+    commands:
+       - echo 'running with condition'
+  deploy:
+    image: mexx/ansible-2.2
+    
