@@ -7,3 +7,5 @@ pipeline:
   deploy:
     image: mexx/ansible-2.2
     
+
+
