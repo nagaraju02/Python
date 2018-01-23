@@ -1,5 +1,5 @@
 pipeline:
-branches: master
+  branches: master
   build:
     image: lokeshjangir/composer:php73
     commands:
